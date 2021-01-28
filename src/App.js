@@ -1,5 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
+import ApolloClient from "apollo-boost";
+import gql from 'graphql-tag';
+const client = new ApolloClient({
+  uri: "[Insert URI of GraphQL endpoint]"
+});
+
+
+
 
 function App() {
   return (
